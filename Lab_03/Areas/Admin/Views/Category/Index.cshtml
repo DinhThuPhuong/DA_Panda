@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Lab_03.Models.Category>
+
+<h2>Categories</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>Name</th>
+            
+            
+        </tr>
+        <button>
+            <a id="addCategoryLink" href="~/Admin/Category/Add">Add</a>
+        </button>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+               
+                <td>
+                    <a asp-action="Display" asp-route-id="@product.Id">View</a> |
+                    <a asp-action="Update" asp-route-id="@product.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

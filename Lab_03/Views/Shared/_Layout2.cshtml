@@ -1,0 +1,191 @@
+﻿  <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Thế Giới Sách</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Lab_03.sites.css" asp-append-version="true" />
+</head>
+<body>
+    
+    @*
+
+    
+     <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Red Store Ecom Website</title>
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Lab_03.site.css" asp-append-version="true" />
+        <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+    @*  <div class="header">
+            <div class="container">
+                <!-- logo & menu-->
+                <div class="navbar">
+                    <div  class=" col-9">
+                        <div class="logo">
+                            <img src="./images/logo.jpg" width="125px">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <nav>
+                            <ul id="MenuItems">
+                                <li class="nav-item">
+                                    <a id="manage" class="nav-link text-dark" asp-area="" asp-page="/Account/Manage/Index" title="Manage">Account</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="manage" class="nav-link text-dark" asp-area="" asp-page="/Product/Index" title="Manage">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="manage" class="nav-link text-dark" asp-area="" asp-page="/Account/Manage/Index" title="Manage">Contact</a>
+                                </li>
+                            
+                               @*  <li><a href="~/Product/Index">Products</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                 <li><a href="">Account</a></li> *@
+               @*              </ul>
+                            <partial name="_LoginPartial" />
+                            <form class="d-flex">
+                               @*  <button class="btn btn-outline-dark" type="submit">
+                                    <i class="bi-cart-fill me-1"></i>
+                                    Cart
+                                </button>  *@
+                              @*  <a href="/ShoppingCart/Index" class="btn btn-outline-dark">
+                                <i class="bi-cart-fill me-1"></i>
+                                Cart
+                                </a>
+                            </form>
+                        </nav>
+                    </div>
+                    <img src="./images/cart.png" width="25px" height="25px">
+                </div>
+                <!---->
+                <!-- banner -->
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Your Book, Your Choose </h1>
+                        <p style="color:#fff">
+
+                            Dĩ vãng hồi ức, hiện tại tri thức, khám phá hành trình đọc sách với chúng tôi!
+                        </p>
+                        <div class="button">
+                            <a href="" class="btn">Explore Now &#10132;</a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/banner.jpg">
+                    </div>
+                </div>
+                <!---->
+            </div>
+        </div>  *@
+ 
+
+   
+     <header>
+
+        <!-- Nội dung của phần tiêu đề ở đây -->
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  box-shadow  p-3 text-white">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fs-4"  asp-area="" asp-controller="Home" asp-action="Index">Thế Giới Sách</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white " asp-area="" asp-controller="Product" asp-action="Index">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/OrderList/Index " class="btn text-white">
+                                <i class="fas fa-shopping-bag text-white"></i> <!-- Biểu tượng giỏ hàng từ Font Awesome -->
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/ShoppingCart/Index" class="btn text-white">
+                                <i class="bi-cart-fill me-2 text-white"></i>
+                            </a>  
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                    <form class="d-flex">
+                        @* <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                        </button> *@
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="text-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>About Us</h5>
+                    <p style="color:white">The Gioi Sach made by AnhThu !!!</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#">Home</a></li>
+                        <li><a class="text-white" href="#">Rooms</a></li>
+                        <li><a class="text-white" href="#">Amenities</a></li>
+                        <li><a class="text-white" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a class="text-white" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a class="text-white" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled text-white">
+                        <li><i class="fas fa-map-marker-alt" ></i> Q9, Ho Chi Minh City, VietNam</li>
+                        <li><i class="fas fa-phone "></i> 0347335846</li>
+                        <li><i class="fas fa-envelope"></i> dinhthuphuong.it@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center">
+                &copy; 2024 - The Gioi Sach - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

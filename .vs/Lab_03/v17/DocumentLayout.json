@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\H\u01B0\u01A1ng\\OneDrive\\CodeTH_Lap3Share\\THWEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\h\u01B0\u01A1ng\\onedrive\\codeth_lap3share\\thweb\\lab_03\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\H\u01B0\u01A1ng\\OneDrive\\CodeTH_Lap3Share\\THWEB\\Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\H\u01B0\u01A1ng\\OneDrive\\CodeTH_Lap3Share\\THWEB\\Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T01:47:44.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿@model Order
+<h2>Checkout</h2>
+
+<form asp-action="Checkout" method="post">
+    <div class="form-group">
+        <label asp-for="ShippingAddress">Shipping Address</label> @* tạo ra một nhãn có tên Shipping Address cho trường nhập văn bản.
+        asp-for="ShippingAddress" liên kết nhãn với thuộc tính ShippingAddress, giúp xác định mối quan hệ giữa nhãn và trường nhập. *@
+        <input asp-for="ShippingAddress" class="form-control" />  @* trường nhập văn bản *@
+    </div>
+    <div class="form-group">
+        <label asp-for="Notes">Notes</label>
+
+<textarea asp-for="Notes" class="form-control"></textarea> @* một phần tử HTML dùng để tạo ra một ô văn bản lớn, nơi người dùng có thể nhập và chỉnh sửa nhiều dòng văn bản. *@
+    </div>
+    <button type="submit" class="btn btn-primary">Place Order</button>
+</form>
