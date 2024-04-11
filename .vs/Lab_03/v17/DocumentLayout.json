@@ -1,9 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\H\u01B0\u01A1ng\\OneDrive\\CodeTH_Lap3Share\\THWEB\\",
+  "WorkspaceRootPath": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\h\u01B0\u01A1ng\\onedrive\\codeth_lap3share\\thweb\\lab_03\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\areas\\admin\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\areas\\admin\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|c:\\users\\fpt shop\\source\\repos\\da_panda\\lab_03\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2C62C804-CEA0-46DC-97C6-64A42F98863C}|Lab_03\\Lab_03.csproj|solutionrelative:lab_03\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -14,15 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Lab_03\\Repository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "Lab_03\\Repository\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T05:33:52.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Lab_03\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Lab_03\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAKEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:19:42.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab_03\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Lab_03\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T04:14:00.391Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Lab_03\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Lab_03\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T04:10:42.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Lab_03\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Lab_03\\Areas\\Admin\\Views\\Product\\Add.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T04:04:05.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Lab_03\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Lab_03\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:00:48.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab_03\\appsettings.json",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\appsettings.json",
+              "RelativeToolTip": "Lab_03\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-11T03:46:26.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\H\u01B0\u01A1ng\\OneDrive\\CodeTH_Lap3Share\\THWEB\\Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
-              "ToolTip": "C:\\Users\\H\u01B0\u01A1ng\\OneDrive\\CodeTH_Lap3Share\\THWEB\\Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DA_Panda\\Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
               "RelativeToolTip": "Lab_03\\Views\\ShoppingCart\\Checkout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
